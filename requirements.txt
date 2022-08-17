@@ -4,3 +4,4 @@ fuzzywuzzy
 flask_restful
 flask_jwt
 uwsgi
+gunicorn
