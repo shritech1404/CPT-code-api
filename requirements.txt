@@ -1,0 +1,7 @@
+Flask
+pandas
+sqlite3
+fuzzywuzzy
+flask_restful
+flask_jwt
+uwsgi
