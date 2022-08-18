@@ -25,6 +25,9 @@ This Rest API made for medical code search (CPT & HCPCS). where you just have to
   GET https://cpt-code-search.herokuapp.com/code/cardiac catheterization procedure
 ```
 
+## Usage/Examples (using Postman)
+
+![Capture](https://user-images.githubusercontent.com/67087846/185297096-4a50827c-db2e-4981-a62a-d65c30914253.JPG)
 
 
 
@@ -65,6 +68,14 @@ def local_RestApi(searchs):
 }
 ```
 
+## Installation
+
+Install requirements with pip
+
+```bash
+  pip install -r requirements.txt
+```
+    
 
 ## Authors
 
@@ -75,11 +86,4 @@ def local_RestApi(searchs):
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
 
 
-## Installation
 
-Install requirements with pip
-
-```bash
-  pip install -r requirements.txt
-```
-    
