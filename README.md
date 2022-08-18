@@ -65,7 +65,6 @@ def local_RestApi(searchs):
     df['score'] = lst4
     df['api_procedure'] = lst5
     return df
-}
 ```
 
 ## Installation
