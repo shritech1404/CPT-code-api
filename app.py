@@ -1,7 +1,6 @@
 from flask import Flask,request
 import sqlite3
 from flask_restful import Api, Resource, reqparse
-from flask_jwt import JWT
 from fuzzywuzzy import fuzz
 
 
@@ -42,7 +41,7 @@ class Code(Resource):
         res = result.copy()
         data = []
         for rows in res:
-            score=fuzz.ratio(des, rows[4])
+            score=fuzz.WRatio(des, rows[4])
             data.append({"CategaryCode":rows[1], "CategoryName":rows[2], "CPTCode":rows[3], "matchedDescription":rows[4], "score":float(score)})
         #data= {"result":results}
         #data.sort(key=lambda e: e['key']['subkey'], reverse=True)
