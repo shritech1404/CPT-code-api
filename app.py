@@ -56,4 +56,4 @@ api.add_resource(Code, '/code/<string:des>')
 
 
 if __name__=='__main__':
-    app.run(port=8000, debug=True)
+    app.run()
